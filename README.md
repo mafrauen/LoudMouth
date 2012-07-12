@@ -28,6 +28,7 @@ To play with the Twitter API
 [url_express]: http://www.expressjs.com
 [url_twitter]: https://dev.twitter.com/docs/api/1/get/statuses/home_timelinehttp://dev.twitter.com
 [url_twitter_api]: https://dev.twitter.com/docs/auth/oauth
+[url_jquery]: http://jquery.com
 [url_less]: http://lesscss.org
 [url_d3]: http://d3js.org
 [url_coffeescript]: http://www.coffeescript.org
