@@ -8,8 +8,8 @@ A quick way to visualize who Tweets the most from your timeline.
   * node.js [site][url_node]
   * express.js [site][url_express]
   * Twitter API [site][url_twitter]
-    * OAuth
-    * [`GET statuses/home_timeline`][url_twitter_api]
+     * OAuth
+     * [`GET statuses/home_timeline`][url_twitter_api]
 * Client
   * jQuery [site][url_jquery]
   * Precompiled CSS with LESS [site][url_less]
