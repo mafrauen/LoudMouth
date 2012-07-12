@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>Twitter LoudMouth</h1>
+    <p>Who talks the most on your Twitter timeline?</p>
+
+    <label for="limit">
+      Only include users who have Tweeted at least this many times
+    </label>
+    <input type="number" name='limit' id='limit' value=1 max=20 min=1 
+      title="Use 'k' to increase the limit, 'j' to decrease"/>
+    <button id='changeLimit'>Calculate</button>
+    <p id="since">Showing Tweets since <span id='sinceTime'></span></p>
+
+    <div id="graph" class='gallery'>Loading Tweets...</div>
+
+    <script src='/javascripts/jquery-1.7.2.min.js'></script>
+    <script src="http://d3js.org/d3.v2.min.js"></script>
+    <script src="javascripts/lodash.min.js"></script>
+    <script src="javascripts/application.js"></script>
+  </body>
+</html>

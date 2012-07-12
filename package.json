@@ -1,0 +1,20 @@
+{
+  "name": "loudmouth",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "start": "server.js"
+  },
+  "dependencies": {
+    "express": "3.0.0beta4",
+    "hjs": "*",
+    "less-middleware": "*",
+    "coffee-script": "*",
+    "request": "*",
+    "socket.io": "~0.9.6"
+  },
+  "subdomain": "loudmouth",
+  "engines": {
+    "node": "0.6.x"
+  }
+}
