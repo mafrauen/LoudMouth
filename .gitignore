@@ -17,3 +17,4 @@ npm-debug.log
 
 # Hide twitter consumer_secret
 twitter_key
+twitter_opts.js

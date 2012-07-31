@@ -1,17 +1,10 @@
 request = require 'request'
 qs = require 'querystring'
-fs = require 'fs'
+auth = require '../twitter_opts'
 
 twitter = (app) =>
 
   urlPostAuth = '/twitter_auth'
-
-  auth =
-    consumer_key: 'AUl1Q4aOu5t2CcndNSqkw'
-    consumer_secret: 'Root file "twitter_key" contains this value'
-
-  fs.readFile './twitter_key', (err, data) ->
-    auth.consumer_secret = data.toString().trim()
 
   index = (req, res) ->
     auth.callback = "http://#{req.headers.host}#{urlPostAuth}"
